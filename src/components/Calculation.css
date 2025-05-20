@@ -1,0 +1,41 @@
+.calculation {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.calculation div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.calculation div button {
+    background-color: black;
+    color: white;
+    box-shadow: 1.5px 1.5px 10px 5px gray;
+    padding: 6px 8px;
+    transition: transform 0.5s;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.calculation div button:hover {
+    transform: scale(115%);
+    border: none;
+}
+
+.calculation div button:active {
+    box-shadow: 1.5px 1.5px 10px 5px rgb(255, 248, 248);
+  }
+
+.calculation div span {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}

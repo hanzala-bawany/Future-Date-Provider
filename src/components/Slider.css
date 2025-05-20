@@ -1,0 +1,66 @@
+#sliderParent{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.slider{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    /* background-color: aqua */
+}
+
+
+.slider input {
+    width: 100%;
+    height: 10px; /* height of the track */
+}
+
+
+.slider p{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+#sliderParent .counter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#sliderParent .counter button {
+    background-color: black;
+    color: white;
+    box-shadow: 1.5px 1.5px 10px 5px gray;
+    padding: 6px 8px;
+    transition: transform 0.5s;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+#sliderParent .counter button:hover {
+    transform: scale(115%);
+    border: none;
+}
+
+#sliderParent .counter button:active {
+    box-shadow: 1.5px 1.5px 10px 5px rgb(255, 248, 248);
+}
+
+#sliderParent .counter span {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
