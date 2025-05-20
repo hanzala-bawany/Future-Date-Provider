@@ -1,4 +1,4 @@
-import { Dates } from './components/dates'
+import { Dates } from './components/Dates'
 import { Calculation } from './components/Calculation'
 import { Slider } from './components/Slider'
 import './App.css'
