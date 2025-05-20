@@ -23,9 +23,6 @@ function App() {
 
   }
 
-
-
-
   return (
     <div id="mainParent">
 

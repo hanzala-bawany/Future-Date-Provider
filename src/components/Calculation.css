@@ -32,10 +32,74 @@
 
 .calculation div button:active {
     box-shadow: 1.5px 1.5px 10px 5px rgb(255, 248, 248);
-  }
+}
 
 .calculation div span {
     font-size: 24px;
     font-weight: 600;
     letter-spacing: 1px;
+
 }
+
+
+
+@media only screen and (max-width: 767px) {
+    .calculation {
+        width: 80%;
+        row-gap: 30px;
+    }
+
+    .calculation div button {
+        padding: 5px 7px;
+        font-size: 16px;
+        letter-spacing: 0.4px;
+    }
+
+    .calculation div span {
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: 0.6px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 540px) {
+    .calculation {
+        width: 95%;
+        row-gap: 40px;
+    }
+
+    .calculation div button {
+        padding: 6px 6px;
+        font-size: 13px;
+        letter-spacing: 0.4px;
+    }
+
+    .calculation div span {
+        font-size: 16.5px;
+        font-weight: 500;
+        letter-spacing: 0.6px;
+    }
+}
+
+@media only screen and (max-width: 540px) and (max-height : 800px) {
+    .calculation {
+        width: 95%;
+        row-gap: 40px;
+    }
+
+    .calculation div button {
+        padding: 4px 5px;
+        font-size: 12px;
+        letter-spacing: 0.3px;
+    }
+
+    .calculation div span {
+        font-size: 14.5px;
+        font-weight: 500;
+        letter-spacing: 0.4px;
+    }
+}
+

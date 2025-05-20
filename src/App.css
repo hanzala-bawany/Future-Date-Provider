@@ -44,3 +44,70 @@
   color: white;
   border: 1.5px solid;
 }
+
+
+
+/* ========== Responsive Queries ========== */
+
+@media only screen and (max-width: 767px) {
+  h1{
+    font-size: 45px;
+  }
+  #mainParent{
+    row-gap: 40px;
+  } 
+  #main{
+    width: 70vw;
+    height: 55vh;
+    font-size: 18px;
+  }
+  #calculationChanger{
+    font-size: 18px;
+    padding: 4px 10px;
+    font-weight: 500;
+  }
+  
+}
+
+
+@media only screen and (max-width: 540px)  {
+  h1{
+    font-size: 40px;
+  }
+  #mainParent{
+    row-gap: 40px;
+  } 
+  #main{
+    width: 80vw;
+    height: 55vh;
+    font-size: 18px;
+  }
+  #calculationChanger{
+    font-size: 18px;
+    padding: 4px 10px;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 540px) and (max-height : 800px){
+  h1{
+    font-size: 40px;
+  }
+  #mainParent{
+    row-gap: 40px;
+  } 
+  #main{
+    width: 80vw;
+    height: 60vh;
+    font-size: 18px;
+  }
+  #calculationChanger{
+    font-size: 18px;
+    padding: 4px 10px;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+ 
+}

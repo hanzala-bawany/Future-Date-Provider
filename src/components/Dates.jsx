@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Dates.css"
 
 export const Dates = (props) => {
 
@@ -12,13 +13,10 @@ export const Dates = (props) => {
   const months = [
     "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"
-  ];
+  ]
 
   return (
-    <div style={{
-      fontSize: "24px",
-      fontWeight: "600"
-    }}>
+    <div id='dates' >
       { !datechangerCount ? "Today is : "  :  `After ${datechangerCount} Days Date Will Be : ` }
       {days[updateDate.getDay()] }  {months[updateDate.getMonth()] }  {updateDate.getDate() }  {updateDate.getFullYear() }
     </div>
